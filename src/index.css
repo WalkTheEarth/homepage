@@ -1,75 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
-@layer base {
-  :root {
-    --background: 222 47% 11%;
-    --foreground: 210 40% 98%;
-
-    --card: 217 33% 17%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222 47% 11%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 199 89% 48%;
-    --primary-foreground: 222 47% 11%;
-
-    --secondary: 217 33% 17%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217 33% 17%;
-    --muted-foreground: 215 20% 65%;
-
-    --accent: 199 89% 48%;
-    --accent-foreground: 222 47% 11%;
-
-    --destructive: 0 63% 31%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217 33% 17%;
-    --input: 217 33% 17%;
-    --ring: 199 89% 48%;
-
-    --radius: 0.5rem;
-
-    /* Terminal-inspired colors */
-    --terminal-green: 142 71% 45%;
-    --terminal-cyan: 199 89% 48%;
-    --glow: 199 89% 48%;
-  }
+body {
+  background: #1a1a1a;
+  color: #f0f0f0;
+  font-family: monospace;
+  line-height: 1.6;
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-
-  body {
-    @apply bg-background text-foreground;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold;
-  }
+a {
+  color: #4a9eff;
+  text-decoration: none;
 }
 
-@layer utilities {
-  .text-gradient {
-    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
-  }
+a:hover {
+  text-decoration: underline;
+}
 
-  .glow {
-    text-shadow: 0 0 10px hsl(var(--glow) / 0.5);
-  }
+h1 {
+  font-size: 2em;
+  margin: 0.5em 0;
+}
 
-  .card-glow {
-    box-shadow: 0 0 20px hsl(var(--glow) / 0.1);
-  }
+h2 {
+  font-size: 1.5em;
+  margin: 1em 0 0.5em;
+  color: #4a9eff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5em 0;
 }
