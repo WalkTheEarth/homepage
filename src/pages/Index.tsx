@@ -1,10 +1,10 @@
 const Index = () => {
   const projects = [
-    { name: "PyQuake-cli", desc: "CLI tool that visualizes USGS earthquake data", link: "https://github.com/WalkTheEarth/PyQuake-cli" },
+    { name: "PyQuake-cli", desc: "Gets the last 10~ earthquakes and outputs them in your terminal", link: "https://github.com/WalkTheEarth/PyQuake-cli" },
     { name: "ratlocker", desc: "Harmless ransomware demo", link: "https://github.com/WalkTheEarth/ratlocker" },
     { name: "SQLDL", desc: "SQA past exams downloader", link: "https://github.com/WalkTheEarth/SQLDL" },
-    { name: "EarthquakeDataCenters", desc: "Global earthquake data explorer", link: "https://github.com/WalkTheEarth/EarthquakeDataCenters" },
-    { name: "PocketLab", desc: "Pocket-sized homelab", link: "https://github.com/WalkTheEarth/PocketLab" },
+    { name: "EarthquakeDataCenters", desc: "Lists of earthquake datacenters", link: "https://github.com/WalkTheEarth/EarthquakeDataCenters" },
+    { name: "PocketLab", desc: "PROJECT: Pocket-sized homelab", link: "https://github.com/WalkTheEarth/PocketLab" },
     { name: "StartIsCracked", desc: "StartIsBack Crack", link: "https://github.com/WalkTheEarth/StartIsCracked" }
   ];
 
