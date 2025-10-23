@@ -9,9 +9,9 @@ const Index = () => {
   ];
 
   return (
-    <div style={{ maxWidth: '800px', margin: '0 auto', padding: '20px', fontFamily: 'monospace' }}>
+    <div style={{ maxWidth: '900px', margin: '0 auto', padding: '40px 20px', fontFamily: 'monospace' }}>
       <h1>WalkTheEarth</h1>
-      <p>Developer | Command-Line Tools | Fun Demos</p>
+      <p style={{ fontSize: '1.1em', color: '#888', marginBottom: '2em' }}>Developer | Command-Line Tools | Fun Demos</p>
       
       <h2>About</h2>
       <p>

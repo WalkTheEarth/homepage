@@ -3,33 +3,52 @@ body {
   color: #f0f0f0;
   font-family: monospace;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   color: #4a9eff;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
 }
 
 a:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid #4a9eff;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin: 0.5em 0;
+  color: #4a9eff;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.3em;
 }
 
 h2 {
-  font-size: 1.5em;
-  margin: 1em 0 0.5em;
+  font-size: 1.8em;
+  margin: 1.5em 0 0.8em;
   color: #4a9eff;
+  border-left: 4px solid #4a9eff;
+  padding-left: 0.5em;
 }
 
 ul {
   list-style: none;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1em;
 }
 
 li {
-  margin: 0.5em 0;
+  background: #222;
+  padding: 1em;
+  border-left: 3px solid #4a9eff;
+  margin: 0;
+}
+
+li:hover {
+  background: #2a2a2a;
 }
